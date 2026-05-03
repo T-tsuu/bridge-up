@@ -14,6 +14,27 @@
     "filter": "تصفية",
     "noResults": "لا توجد نتائج."
   },
+  "ui": {
+    "textarea": {
+      "counter": "{current}/{max}"
+    },
+    "modal": {
+      "close": "إغلاق"
+    },
+    "alert": {
+      "dismiss": "تجاهل"
+    },
+    "fileUpload": {
+      "prompt": "اضغط أو اسحب ملفاً إلى هنا",
+      "accepted": "الأنواع المقبولة: {types}",
+      "anyType": "جميع أنواع الملفات مقبولة",
+      "maxSize": "الحد الأقصى {max} ميجابايت",
+      "inputLabel": "رفع ملف",
+      "remove": "إزالة الملف",
+      "errorType": "نوع الملف غير مسموح به. المقبول: {types}",
+      "errorSize": "يتجاوز الملف الحد الأقصى للحجم {max} ميجابايت"
+    }
+  },
   "auth": {
     "login": "تسجيل الدخول",
     "logout": "تسجيل الخروج",

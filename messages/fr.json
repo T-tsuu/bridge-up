@@ -14,6 +14,27 @@
     "filter": "Filtrer",
     "noResults": "Aucun résultat trouvé."
   },
+  "ui": {
+    "textarea": {
+      "counter": "{current}/{max}"
+    },
+    "modal": {
+      "close": "Fermer"
+    },
+    "alert": {
+      "dismiss": "Ignorer"
+    },
+    "fileUpload": {
+      "prompt": "Cliquez ou glissez un fichier ici",
+      "accepted": "Types acceptés : {types}",
+      "anyType": "Tous les types de fichiers acceptés",
+      "maxSize": "Max {max} Mo",
+      "inputLabel": "Téléchargement de fichier",
+      "remove": "Supprimer le fichier",
+      "errorType": "Type de fichier non autorisé. Acceptés : {types}",
+      "errorSize": "Le fichier dépasse la taille maximale de {max} Mo"
+    }
+  },
   "auth": {
     "login": "Se connecter",
     "logout": "Se déconnecter",
