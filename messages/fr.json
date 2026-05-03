@@ -1,0 +1,76 @@
+{
+  "common": {
+    "appName": "Bridge Up",
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "submit": "Soumettre",
+    "back": "Retour",
+    "next": "Suivant",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "noResults": "Aucun résultat trouvé."
+  },
+  "auth": {
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "register": "Créer un compte",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "loginTitle": "Bienvenue",
+    "registerTitle": "Créer votre compte"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "opportunities": "Opportunités",
+    "profile": "Profil",
+    "chat": "Messages",
+    "freelance": "Freelance",
+    "admin": "Admin",
+    "university": "Portail Université"
+  },
+  "onboarding": {
+    "welcome": "Bienvenue sur Bridge Up",
+    "step1": "Parlez-nous de vous",
+    "step2": "Votre parcours académique",
+    "step3": "Vos objectifs"
+  },
+  "opportunities": {
+    "title": "Opportunités",
+    "type": {
+      "internship": "Stage",
+      "part_time": "Temps partiel",
+      "remote": "Télétravail",
+      "job": "Emploi",
+      "freelance_project": "Projet Freelance"
+    },
+    "applyNow": "Postuler",
+    "deadline": "Date limite",
+    "xpReward": "Récompense XP",
+    "postedBy": "Publié par"
+  },
+  "profile": {
+    "title": "Profil",
+    "bio": "Bio",
+    "editProfile": "Modifier le profil",
+    "level": "Niveau",
+    "totalXP": "XP Total"
+  },
+  "xp": {
+    "level1": "Débutant",
+    "level2": "Talent Montant",
+    "level3": "Expérimenté",
+    "level4": "Pro",
+    "level5": "Élite"
+  },
+  "errors": {
+    "generic": "Une erreur s'est produite. Veuillez réessayer.",
+    "unauthorized": "Vous n'êtes pas autorisé à consulter cette page.",
+    "notFound": "Page introuvable."
+  }
+}

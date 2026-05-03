@@ -1,0 +1,76 @@
+{
+  "common": {
+    "appName": "بريدج أب",
+    "loading": "جارٍ التحميل...",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "submit": "إرسال",
+    "back": "رجوع",
+    "next": "التالي",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "view": "عرض",
+    "search": "بحث",
+    "filter": "تصفية",
+    "noResults": "لا توجد نتائج."
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "register": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "resetPassword": "إعادة تعيين كلمة المرور",
+    "loginTitle": "مرحبًا بعودتك",
+    "registerTitle": "أنشئ حسابك"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "opportunities": "الفرص",
+    "profile": "الملف الشخصي",
+    "chat": "المحادثات",
+    "freelance": "فريلانس",
+    "admin": "الإدارة",
+    "university": "بوابة الجامعة"
+  },
+  "onboarding": {
+    "welcome": "مرحبًا في بريدج أب",
+    "step1": "أخبرنا عن نفسك",
+    "step2": "مسيرتك الأكاديمية",
+    "step3": "أهدافك"
+  },
+  "opportunities": {
+    "title": "الفرص",
+    "type": {
+      "internship": "تدريب",
+      "part_time": "دوام جزئي",
+      "remote": "عمل عن بُعد",
+      "job": "وظيفة",
+      "freelance_project": "مشروع فريلانس"
+    },
+    "applyNow": "تقدّم الآن",
+    "deadline": "الموعد النهائي",
+    "xpReward": "مكافأة XP",
+    "postedBy": "نشر بواسطة"
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "bio": "نبذة",
+    "editProfile": "تعديل الملف",
+    "level": "المستوى",
+    "totalXP": "إجمالي XP"
+  },
+  "xp": {
+    "level1": "مبتدئ",
+    "level2": "موهبة صاعدة",
+    "level3": "ذو خبرة",
+    "level4": "محترف",
+    "level5": "نخبة"
+  },
+  "errors": {
+    "generic": "حدث خطأ ما. يرجى المحاولة مجددًا.",
+    "unauthorized": "ليس لديك صلاحية لعرض هذه الصفحة.",
+    "notFound": "الصفحة غير موجودة."
+  }
+}

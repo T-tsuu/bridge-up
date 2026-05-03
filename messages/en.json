@@ -1,0 +1,76 @@
+{
+  "common": {
+    "appName": "Bridge Up",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "noResults": "No results found."
+  },
+  "auth": {
+    "login": "Log In",
+    "logout": "Log Out",
+    "register": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "loginTitle": "Welcome back",
+    "registerTitle": "Create your account"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "opportunities": "Opportunities",
+    "profile": "Profile",
+    "chat": "Chat",
+    "freelance": "Freelance",
+    "admin": "Admin",
+    "university": "University Portal"
+  },
+  "onboarding": {
+    "welcome": "Welcome to Bridge Up",
+    "step1": "Tell us about yourself",
+    "step2": "Your education",
+    "step3": "Your goals"
+  },
+  "opportunities": {
+    "title": "Opportunities",
+    "type": {
+      "internship": "Internship",
+      "part_time": "Part-Time",
+      "remote": "Remote",
+      "job": "Job",
+      "freelance_project": "Freelance Project"
+    },
+    "applyNow": "Apply Now",
+    "deadline": "Deadline",
+    "xpReward": "XP Reward",
+    "postedBy": "Posted by"
+  },
+  "profile": {
+    "title": "Profile",
+    "bio": "Bio",
+    "editProfile": "Edit Profile",
+    "level": "Level",
+    "totalXP": "Total XP"
+  },
+  "xp": {
+    "level1": "Starter",
+    "level2": "Rising Talent",
+    "level3": "Experienced",
+    "level4": "Pro",
+    "level5": "Elite"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "unauthorized": "You are not authorized to view this page.",
+    "notFound": "Page not found."
+  }
+}
