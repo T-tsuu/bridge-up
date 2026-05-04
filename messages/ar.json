@@ -53,7 +53,37 @@
     "chat": "المحادثات",
     "freelance": "فريلانس",
     "admin": "الإدارة",
-    "university": "بوابة الجامعة"
+    "university": "بوابة الجامعة",
+    "home": "الرئيسية",
+    "overview": "نظرة عامة",
+    "students": "الطلاب",
+    "logout": "تسجيل الخروج",
+    "notifications": "الإشعارات",
+    "primary": "التنقل الرئيسي",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "expandSidebar": "توسيع الشريط الجانبي",
+    "collapseSidebar": "طوي الشريط الجانبي"
+  },
+  "sidebar": {
+    "label": "التنقل الجانبي",
+    "users": "المستخدمون",
+    "verifications": "التحققات",
+    "moderation": "الإشراف",
+    "xp": "نقاط الخبرة",
+    "certificates": "الشهادات",
+    "auditLog": "سجل التدقيق",
+    "overview": "نظرة عامة",
+    "students": "الطلاب"
+  },
+  "mobile": {
+    "nav": "تنقل الجزء السفلي",
+    "home": "الرئيسية",
+    "opportunities": "الفرص",
+    "chat": "المحادثات",
+    "profile": "الملف الشخصي",
+    "more": "المزيد",
+    "dashboard": "لوحة التحكم"
   },
   "onboarding": {
     "welcome": "مرحبًا في بريدج أب",

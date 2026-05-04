@@ -1,7 +1,7 @@
 // components/ui/Badge.tsx
 import { cn } from "@/lib/utils";
 
-type BadgeVariant = "default" | "success" | "warning" | "error" | "xp" | "level";
+type BadgeVariant = "default" | "success" | "warning" | "error" | "xp" | "level" | "count";
 type BadgeLevel = 1 | 2 | 3 | 4 | 5;
 
 const variantMap: Record<Exclude<BadgeVariant, "level">, string> = {
@@ -10,6 +10,7 @@ const variantMap: Record<Exclude<BadgeVariant, "level">, string> = {
   warning: "bg-[--color-status-warning]/15 text-[--color-status-warning]",
   error:   "bg-[--color-status-error]/15 text-[--color-status-error]",
   xp:      "bg-bridge-gradient text-bridge-blue",
+  count:   "bg-error text-white font-bold tabular-nums"
 };
 
 // Level 1–5 maps to Starter → Elite

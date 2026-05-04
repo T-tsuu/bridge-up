@@ -34,6 +34,9 @@
   /* Gradients */
   --background-image-bridge-gradient:          linear-gradient(to right, #FACC15, #F97316);
   --background-image-bridge-gradient-diagonal: linear-gradient(135deg, #FACC15, #F97316);
+
+  
+  --navbar-height: 64px;
 }
 
 /* ── Base Reset ──────────────────────────────────────────────────────────── */

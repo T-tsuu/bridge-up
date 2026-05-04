@@ -53,7 +53,17 @@
     "chat": "Chat",
     "freelance": "Freelance",
     "admin": "Admin",
-    "university": "University Portal"
+    "university": "University Portal",
+    "home": "Home",
+    "overview": "Overview",
+    "students": "Students",
+    "logout": "Log out",
+    "notifications": "Notifications",
+    "primary": "Primary navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Collapse sidebar"
   },
   "onboarding": {
     "welcome": "Welcome to Bridge Up",

@@ -53,7 +53,37 @@
     "chat": "Messages",
     "freelance": "Freelance",
     "admin": "Admin",
-    "university": "Portail Université"
+    "university": "Portail Université",
+    "home": "Accueil",
+    "overview": "Aperçu",
+    "students": "Étudiants",
+    "logout": "Se déconnecter",
+    "notifications": "Notifications",
+    "primary": "Navigation principale",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "expandSidebar": "Développer la barre latérale",
+    "collapseSidebar": "Réduire la barre latérale"
+  },
+  "sidebar": {
+    "label": "Navigation latérale",
+    "users": "Utilisateurs",
+    "verifications": "Vérifications",
+    "moderation": "Modération",
+    "xp": "XP",
+    "certificates": "Certificats",
+    "auditLog": "Journal d'audit",
+    "overview": "Vue d'ensemble",
+    "students": "Étudiants"
+  },
+  "mobile": {
+    "nav": "Navigation bas de page",
+    "home": "Accueil",
+    "opportunities": "Opportunités",
+    "chat": "Messages",
+    "profile": "Profil",
+    "more": "Plus",
+    "dashboard": "Tableau de bord"
   },
   "onboarding": {
     "welcome": "Bienvenue sur Bridge Up",
