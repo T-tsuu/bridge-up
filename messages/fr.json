@@ -44,7 +44,69 @@
     "forgotPassword": "Mot de passe oublié ?",
     "resetPassword": "Réinitialiser le mot de passe",
     "loginTitle": "Bienvenue",
-    "registerTitle": "Créer votre compte"
+    "registerTitle": "Créer votre compte",
+
+    "field_email": "Adresse e-mail",
+    "field_password": "Mot de passe",
+    "field_confirm_password": "Confirmer le mot de passe",
+    "field_new_password": "Nouveau mot de passe",
+
+    "register_title": "Créer votre compte",
+    "register_subtitle": "Rejoignez Bridge Up et commencez votre parcours.",
+    "register_role_label": "Je m'inscris en tant que",
+    "role_student": "Étudiant / Demandeur d'emploi",
+    "role_recruiter": "Recruteur / Employeur",
+    "role_university": "Université",
+    "role_freelancer": "Freelance indépendant",
+    "register_submit": "Créer un compte",
+    "register_have_account": "Vous avez déjà un compte ?",
+    "register_link": "Pas encore inscrit ?",
+
+    "login_title": "Bon retour",
+    "login_subtitle": "Connectez-vous à votre compte Bridge Up.",
+    "login_submit": "Se connecter",
+    "login_forgot_password": "Mot de passe oublié ?",
+    "login_no_account": "Pas de compte ?",
+    "login_link": "Se connecter",
+
+    "verify_title": "Vérifiez votre e-mail",
+    "verify_subtitle": "Nous avons envoyé un lien de confirmation à {email}. Cliquez dessus pour activer votre compte.",
+    "verify_resend": "Renvoyer l'e-mail de confirmation",
+    "verify_resend_cooldown": "Renvoi dans {seconds}s",
+    "verify_resent": "E-mail de confirmation renvoyé.",
+    "verify_spam_note": "Vérifiez vos spams si vous ne le trouvez pas.",
+    "verify_confirmation_failed": "Le lien de confirmation est invalide ou a expiré. Veuillez en demander un nouveau.",
+
+    "reset_title": "Réinitialiser votre mot de passe",
+    "reset_subtitle": "Entrez votre e-mail pour recevoir un lien de réinitialisation.",
+    "reset_submit": "Envoyer le lien",
+    "reset_email_sent": "Si un compte existe pour cet e-mail, vous recevrez un lien de réinitialisation sous peu.",
+    "reset_back_to_login": "Retour à la connexion",
+
+    "reset_confirm_title": "Définir un nouveau mot de passe",
+    "reset_confirm_subtitle": "Choisissez un mot de passe fort pour votre compte.",
+    "reset_confirm_submit": "Mettre à jour le mot de passe",
+    "reset_confirm_success": "Mot de passe mis à jour. Vous pouvez maintenant vous connecter.",
+
+    "error_generic": "Une erreur s'est produite. Veuillez réessayer.",
+    "error_invalid_credentials": "E-mail ou mot de passe incorrect.",
+    "error_email_not_confirmed": "Veuillez vérifier votre e-mail avant de vous connecter.",
+    "error_email_taken": "Un compte avec cet e-mail existe déjà.",
+    "error_password_short": "Le mot de passe doit comporter au moins 8 caractères.",
+    "error_passwords_mismatch": "Les mots de passe ne correspondent pas.",
+    "error_account_suspended": "Votre compte a été suspendu. Contactez le support.",
+    "error_account_banned": "Votre compte a été banni.",
+    "error_rate_limited": "Trop de tentatives. Veuillez patienter.",
+    "error_rate_limited_countdown": "Trop de tentatives. Réessayez dans {seconds} secondes."
+  },
+  "mobile": {
+    "nav": "Navigation bas de page",
+    "home": "Accueil",
+    "opportunities": "Opportunités",
+    "chat": "Messages",
+    "profile": "Profil",
+    "more": "Plus",
+    "dashboard": "Tableau de bord"
   },
   "nav": {
     "dashboard": "Tableau de bord",
@@ -75,15 +137,6 @@
     "auditLog": "Journal d'audit",
     "overview": "Vue d'ensemble",
     "students": "Étudiants"
-  },
-  "mobile": {
-    "nav": "Navigation bas de page",
-    "home": "Accueil",
-    "opportunities": "Opportunités",
-    "chat": "Messages",
-    "profile": "Profil",
-    "more": "Plus",
-    "dashboard": "Tableau de bord"
   },
   "onboarding": {
     "welcome": "Bienvenue sur Bridge Up",

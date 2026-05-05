@@ -1,5 +1,6 @@
 "use client";
 
+import { logoutAction } from "@/app/[locale]/auth/actions";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { useTranslations, useLocale } from "next-intl";
 import {
@@ -61,7 +62,7 @@ export function Navbar({ role, userAvatarUrl, userName }: NavbarProps) {
     }
 
     return (
-        <header className="fixed inset-block-start-0 inset-inline-0 z-50 h-[var(--navbar-height)] bg-bridge-blue flex items-center px-4 gap-4">
+        <header className="fixed inset-block-start-0 inset-inline-0 z-50 h-[var(--navbar-height)] w-[100%] bg-bridge-blue flex items-center px-4 gap-4">
             {/* Sidebar toggle — admin/university only */}
             {isAdminOrUniversity && (
                 <button
@@ -119,8 +120,8 @@ export function Navbar({ role, userAvatarUrl, userName }: NavbarProps) {
                             key={loc}
                             onClick={() => handleLocaleSwitch(loc)}
                             className={`text-sm font-medium px-2 py-1 rounded transition-colors ${locale === loc
-                                    ? "text-bridge-yellow"
-                                    : "text-muted-dark hover:text-white"
+                                ? "text-bridge-yellow"
+                                : "text-muted-dark hover:text-white"
                                 }`}
                             aria-current={locale === loc ? "true" : undefined}
                         >
@@ -159,13 +160,15 @@ export function Navbar({ role, userAvatarUrl, userName }: NavbarProps) {
 
                         <DropdownSeparator />
 
-                        <DropdownItem
-                            destructive
-                            onClick={() => router.push("/auth/logout")}
-                        >
-                            <LogOut size={16} />
-                            {t("nav.logout")}
-                        </DropdownItem>
+                        <form action={logoutAction.bind(null, locale)}>
+                            <button
+                                type="submit"
+                                className="flex w-full items-center gap-2 px-3 py-2 text-sm text-red-600 hover:bg-red-50 transition-colors rounded"
+                            >
+                                <LogOut size={16} />
+                                {t("nav.logout")}
+                            </button>
+                        </form>
                     </DropdownMenu>
                 </Dropdown>
             </div>
